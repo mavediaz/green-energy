@@ -1,0 +1,222 @@
+/* Colors retrieved from https://color.adobe.com/es/explore?page=2
+ Color Theme Swatches in Hex 
+.NeutralidadClaros-1-hex { color: #BFA380; }
+.NeutralidadClaros-2-hex { color: #A69A94; }
+.NeutralidadClaros-3-hex { color: #D2CBC3; }
+.NeutralidadClaros-4-hex { color: #F2F2F2; }
+.NeutralidadClaros-5-hex { color: #93C5C6; }
+
+/* Color Theme Swatches in RGBA 
+.NeutralidadClaros-1-rgba { color: rgba(191, 163, 128, 1); }
+.NeutralidadClaros-2-rgba { color: rgba(166, 154, 148, 1); }
+.NeutralidadClaros-3-rgba { color: rgba(210, 203, 195, 1); }
+.NeutralidadClaros-4-rgba { color: rgba(242, 242, 242, 1); }
+.NeutralidadClaros-5-rgba { color: rgba(147, 197, 198, 1); }
+
+/* Color Theme Swatches in HSLA 
+.NeutralidadClaros-1-hsla { color: hsla(33, 32, 62, 1); }
+.NeutralidadClaros-2-hsla { color: hsla(19, 9, 61, 1); }
+.NeutralidadClaros-3-hsla { color: hsla(31, 14, 79, 1); }
+.NeutralidadClaros-4-hsla { color: hsla(0, 0, 94, 1); }
+.NeutralidadClaros-5-hsla { color: hsla(181, 30, 67, 1); }
+*/
+
+* {
+    line-height: 1.4;
+}
+
+html {
+    margin: 2rem;
+}
+
+body {
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation {
+    height: 5px;
+}
+
+.masthead {
+    background-image: url(../img/windmil-bg.jpg);
+    height: 100px;
+    max-width: 100%;
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.masthead h2 {
+    color: #F2F2F2;
+}
+
+#active-button {
+    color: #F2F2F2;
+    background-color: #D2CBC3;
+
+}
+
+.page-btn {
+    background-color: #A69A94;
+    padding: 2.5%;
+    border-radius: 90px;
+    width: 20%;
+    height: auto;
+    color: #F2F2F2;
+    margin-right: 2%;
+    font-family: 'EB Garamond', serif;
+}
+
+.page-btn:hover {
+    background-color: #BFA380;
+    color: #fff;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 1rem;
+    font-family: 'EB Garamond', serif;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+.navigation a:link,
+.navigation a:visited {
+    color: #725752;
+    text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: #BFA380;
+}
+
+.nav-item {
+    /*    border-bottom styles*/
+    border-bottom: 5px solid #F2F2F2;
+    width: 100%;
+}
+
+.heading {
+    font-family: 'EB Garamond', serif;
+    font-size: 0.75rem;
+    padding-top: 2rem;
+}
+
+.cover-img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        float: left;
+        clear: both;
+}
+
+p {
+    width: 80%;
+    height: auto;
+    font-size: 0.75rem;
+    font-family: 'PT Sans', sans-serif;
+    color: #725752;
+    padding-bottom: 1rem;
+}
+
+.footer {
+    list-style: none;
+    padding-left: 0;
+    background-color: #93C5C6;
+    padding: 2rem 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.social {
+    display: inline-block;
+}
+
+.social img {
+    height: 25px;
+    width: auto;
+    padding-left: 25px;
+}
+
+@media only screen and (min-width: 30rem) {
+    .main {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    html {
+        margin: 0;
+    }
+
+    body {
+        margin: 2rem;
+    }
+
+    nav {
+        background-color: #93C5C6;
+        padding: 3rem 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation li {
+        display: inline;
+        padding: 0 2%;
+    }
+
+    .nav-item {
+        border-bottom: none;
+    }
+
+    .masthead h2 {
+        margin: 0 auto;
+    }
+
+    .page-btn {
+        padding: 15px;
+        width: 10%;
+
+    }
+
+    .heading {
+        font-size: 1rem;
+        text-decoration: overline;
+    }
+
+    .cover-img {
+        width: 25%;
+        height: auto;
+        border-radius: 20px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        float: left
+    }
+
+    p {
+        width: 70%;
+        float: left;
+        font-size: 1rem;
+        padding-bottom: 50px;
+        margin-left: 5%;
+    }
+
+    .footer {
+        clear: both;
+    }
+}
